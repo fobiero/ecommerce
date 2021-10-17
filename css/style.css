@@ -84,3 +84,59 @@ body {
 .icon-items i:hover {
     color: var(--black);
 }
+
+section {
+    padding: 4rem 9%;
+}
+
+
+/* home section  */
+
+.home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 18rem 0 10rem 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/banner-bg.webp);
+}
+
+.home p {
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+.btn-shop {
+    margin-top: 60px;
+    text-decoration: none;
+    color: var(--light-color);
+    font-weight: 600;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: var(--color);
+    border: 2px solid var(--color);
+}
+
+.btn-shop:hover {
+    color: #fff;
+}
+
+.home .content {
+    text-align: center;
+    width: 60rem;
+}
+
+.home .content h3 {
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.home .content h3 span {
+    color: var(--color);
+    font-weight: 600;
+}
