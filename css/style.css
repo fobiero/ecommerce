@@ -26,6 +26,9 @@ body {
     background-color: #eee;
 }
 
+
+/* HEADER && NAVBAR  */
+
 .header {
     position: fixed;
     top: 0;
@@ -39,10 +42,45 @@ body {
     justify-content: space-between;
 }
 
-.logo {
+.logo a {
     font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--black) !important;
+    list-style: none;
+    /* text-transform: lowercase; */
+    text-decoration: none;
+}
+
+.navbar a {
+    color: var(--black);
+    padding: 0 1.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    color: var(--color);
 }
 
 .logo i {
+    color: var(--color);
     margin-right: 8px;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.icon-items {
+    font-size: 1.1em;
+    cursor: pointer;
+    /* padding: 0 15px; */
+}
+
+.icon-items i {
+    color: var(--color);
+    padding: 0 .5em;
+}
+
+.icon-items i:hover {
+    color: var(--black);
 }
