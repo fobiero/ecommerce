@@ -196,3 +196,60 @@ section {
 
 
 /* products  */
+
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px;
+}
+
+
+/* The colour of the indicators */
+
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+    background: #707070;
+}
+
+.box {
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.box img {
+    width: 16rem;
+    height: auto;
+}
+
+.box h3 {
+    color: var(--black);
+    padding: 5px 0;
+}
+
+.box p {
+    color: var(--light-color);
+}
+
+.btn-add-to-cart {
+    cursor: pointer;
+    position: relative;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: var(--color);
+    margin-top: 40px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+.ratings {
+    cursor: pointer;
+    color: var(--color);
+}
