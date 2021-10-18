@@ -12,7 +12,7 @@
     --black: #130f40;
     --light-color: #666;
     --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
-    --border: .2rem solid rgba(0, 0, 0, .1);
+    --border: .1rem solid rgba(0, 0, 0, .1);
     --outline: .1rem solid rgba(0, 0, 0, .1);
     --outline-hover: .2rem solid var(--black);
 }
@@ -317,6 +317,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 1.3rem;
     cursor: pointer;
+    margin-bottom: 40px;
 }
 
 .reviews .review-content .review-item {
@@ -344,6 +345,71 @@ section {
     background-color: #fff;
     padding: 2rem 1rem;
     box-shadow: var(--box-shadow);
+}
+
+
+/* blog  */
+
+.blog .box-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5srem;
+}
+
+.blog .box-content .blog-box {
+    overflow: hidden;
+    margin: .3rem;
+}
+
+.blog-box {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+}
+
+.blog .box-content .blog-box img {
+    width: 100%;
+    height: 25rem;
+    top: 0;
+    object-fit: cover;
+}
+
+.blog .box-content .blog-box h3 {
+    color: var(--black);
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-top: 20px;
+}
+
+.blog .box-content .blog-box p {
+    color: var(--light-color);
+}
+
+.blog .box-content .blog-box .blog-content {
+    padding: 2rem 1.5rem;
+}
+
+.blog .box-content .blog-box .blog-content .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.3rem;
+    border-bottom: var(--border);
+}
+
+.blog .box-content .blog-box .blog-content .icons a {
+    color: var(--light-color);
+    font-size: 1rem;
+}
+
+.blog .box-content .blog-box .blog-content .icons a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.blog .box-content .blog-box .blog-content .icons a i {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    color: var(--color);
 }
 
 
