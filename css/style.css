@@ -124,6 +124,7 @@ section {
 
 .btn-shop:hover {
     color: #fff;
+    text-decoration: none;
 }
 
 .home .content {
