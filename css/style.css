@@ -203,6 +203,11 @@ section {
     bottom: -40px;
 }
 
+.products {
+    position: relative;
+    z-index: -1;
+}
+
 
 /* The colour of the indicators */
 
@@ -252,4 +257,37 @@ section {
 .ratings {
     cursor: pointer;
     color: var(--color);
+}
+
+
+/* categories  */
+
+.categories .category-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.3rem;
+}
+
+.categories .category-items .box {
+    background: #fff;
+    padding: 3rem 2rem;
+    outline: var(--outline);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+
+.categories .category-items .box a {
+    cursor: pointer;
+    position: relative;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: var(--color);
+    margin-top: 40px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+.categories .category-items .box a:hover {
+    text-decoration: none;
 }
