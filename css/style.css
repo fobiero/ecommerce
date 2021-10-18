@@ -382,6 +382,8 @@ section {
 
 .blog .box-content .blog-box p {
     color: var(--light-color);
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
 }
 
 .blog .box-content .blog-box .blog-content {
@@ -410,6 +412,108 @@ section {
     margin-right: 1rem;
     font-size: 1.3rem;
     color: var(--color);
+}
+
+.blog .box-content .blog-box .blog-content .rd-mre {
+    color: var(--black);
+    text-decoration: none;
+    border: var(--border);
+    padding: .7rem 1.5rem;
+}
+
+.blog .box-content .blog-box .blog-content .rd-mre:hover {
+    background-color: var(--color);
+    transition: .2s linear;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/* contact us && footer*/
+
+.footer {
+    background-color: #fff;
+}
+
+.footer .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .footer-content .footer-box .logo-footer {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+}
+
+.footer .footer-content .footer-box h3 {
+    font-size: 2.2rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+.footer .footer-content .footer-box h3 i {
+    color: var(--color);
+}
+
+.footer .footer-content .footer-box a {
+    display: block;
+    color: var(--light-color);
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.footer .footer-content .footer-box a:hover {
+    text-decoration: none;
+    border: none;
+}
+
+.footer .footer-content .footer-box a i {
+    color: var(--color);
+    padding-right: .5rem;
+}
+
+.footer .footer-content .footer-box a:hover i {
+    padding-right: 2rem;
+    transition: .2s ease-out;
+}
+
+.footer .footer-content .footer-box p {
+    color: var(--light-color);
+}
+
+.footer .footer-content .footer-box .share i {
+    font-size: 2rem;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.footer .footer-content .footer-box .share i:hover {
+    opacity: .4;
+}
+
+.footer .footer-content .footer-box input {
+    margin: 1.5rem 0;
+}
+
+.footer .footer-content .footer-box .email {
+    outline: none;
+    border: 2px solid var(--color);
+    padding: .2rem;
+}
+
+.footer .footer-content .footer-box .btn-subscribe {
+    background-color: var(--color);
+    color: var(--black);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: .3rem 1rem;
+    border-radius: 5px;
+}
+
+.footer .footer-content .footer-box img {
+    cursor: pointer;
 }
 
 
