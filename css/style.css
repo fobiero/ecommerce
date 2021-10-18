@@ -189,3 +189,46 @@ section {
     color: #fff;
     background-color: var(--color);
 }
+
+
+/* products  */
+
+.products .prod-slider {
+    padding: 1rem;
+}
+
+.products .prod-slider:first-child {
+    margin-bottom: 2rem;
+}
+
+.products .prod-slider .box {
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+
+.products .prod-slider .box img {
+    height: 15rem;
+}
+
+.products .prod-slider .box h3 {
+    font-size: 2.3rem;
+    color: var(--black);
+}
+
+.products .prod-slider .box .price {
+    font-size: 2rem;
+    color: var(--light-color);
+    padding: .5rem 0;
+}
+
+.products .prod-slider .box .ratings i {
+    font-size: 1.5rem;
+    color: var(--color);
+    padding: .5rem 0;
+    cursor: pointer;
+}
