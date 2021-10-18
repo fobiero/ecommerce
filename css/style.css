@@ -530,6 +530,11 @@ section {
     .header .navbar a:first-child {
         margin-left: -15px;
     }
+    .footer .footer-content .footer-box {
+        margin-bottom: 2rem;
+        border: var(--border);
+        padding: 2rem;
+    }
 }
 
 @media screen and (max-width:1260px) {
@@ -550,5 +555,10 @@ section {
     .home {
         background-size: cover;
         background-position: center;
+    }
+    .footer .footer-content .footer-box {
+        margin-bottom: 2rem;
+        border: var(--border);
+        padding: 2rem;
     }
 }
